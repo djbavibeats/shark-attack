@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f72973a.css",
+    "main.js": "/static/js/main.15264843.js",
+    "static/media/Bazinga-RegularItalic.otf": "/static/media/Bazinga-RegularItalic.a4dc18726067e6dca878.otf",
+    "index.html": "/index.html",
+    "main.2f72973a.css.map": "/static/css/main.2f72973a.css.map",
+    "main.15264843.js.map": "/static/js/main.15264843.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f72973a.css",
+    "static/js/main.15264843.js"
+  ]
+}
