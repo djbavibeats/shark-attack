@@ -51,7 +51,7 @@ export default function Experience() {
                 floatFactor={ Math.random() }
             />
         </Suspense>
-        <ContactShadows position={[0, -2, 0]} opacity={0.4} scale={20} blur={1.75} far={4.5} />
+        {/* <ContactShadows position={[0, -2, 0]} opacity={0.4} scale={20} blur={1.75} far={4.5} /> */}
         <mesh rotation-x={ Math.PI * -.5 } position-y={-2} scale={[ 10, 10 ]}>
             <planeGeometry  />
         </mesh>
