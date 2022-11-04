@@ -14,14 +14,19 @@
         </p>
         <div class="bottom-content-wrapper">
             <p class="justin-bavier">Justin Bavier</p>
-            <div class="link-wrapper volt">
+            <div class="link-wrapper volt" id="volt">
                 <a  href="">VOLT CREATIVE</a>
             </div>
-            <div class="link-wrapper tpk">
+            <div class="link-wrapper tpk" id="tpk">
                 <a href="">THE PRESSURE KIDS</a>
             </div>
         </div>
     </div>
     <div id="root"></div>
+
+    <script>
+        document.getElementById('volt').addEventListener('click', () => { window.open('https://www.voltcreative.com') })
+        document.getElementById('tpk').addEventListener('click', () => { window.open('https://open.spotify.com/artist/7z3MQUxX76zkDWG52PkI0C?si=Z7V8JFFXTCONk0TDHA0yKA') })
+    </script>
 </body>
 </html>
