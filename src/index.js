@@ -7,13 +7,9 @@ import * as THREE from 'three'
 const root = ReactDOM.createRoot(document.querySelector('#root'))
 
 root.render(
-    <Canvas 
-        shadows
-        camera={{
-            position: [ 0, 0, 7 ],
-            fov: 30
-        }}
-    >
-        <Experience />
-    </Canvas>
+    <>
+        <Canvas shadows camera={{ position: [ 0, 0, 7 ], fov: 30 }}>
+            <Experience />
+        </Canvas>
+    </>
 )

@@ -10,7 +10,7 @@ body,
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #c90225;
+    background: #002230;
 }
 
 .text-wrapper {
@@ -28,6 +28,7 @@ body,
     font-size: 72px;
     line-height: 1;
 }
+
 
 @media screen and (min-width: 768px) {
     .text-wrapper {
