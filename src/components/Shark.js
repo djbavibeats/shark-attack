@@ -14,7 +14,7 @@ export default function Shark({ modelName, scale, floatFactor, sparkle })
         shark.current.rotation.x = THREE.MathUtils.lerp(shark.current.rotation.x, Math.cos(t / 10) / 10 + - .25, 0.1)
         shark.current.rotation.y = THREE.MathUtils.lerp(shark.current.rotation.y, Math.sin(t / 10) / 4, 0.1)
         shark.current.rotation.z = THREE.MathUtils.lerp(shark.current.rotation.z, Math.sin(t / 10) / 15, 0.1)
-        shark.current.position.y = THREE.MathUtils.lerp(shark.current.position.y, (-6 + Math.sin(t)) / 3, floatFactor) 
+        shark.current.position.y = THREE.MathUtils.lerp(shark.current.position.y, (-5 + Math.sin(t)) / 3, floatFactor) 
     })
 
     return <>   

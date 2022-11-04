@@ -17,7 +17,7 @@ body,
     position: absolute;
     top: 0;
     margin-top: -14.5%;
-    right: 9.5%;
+    right: 19%;
     z-index: 1;
 }
 
@@ -29,9 +29,61 @@ body,
     line-height: 1;
 }
 
+.bottom-content-wrapper {
+    position: absolute;
+    top: 72.5vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.justin-bavier {
+    font-family: 'Bazinga';
+    font-size: 36px;
+    margin-left: 7.5%;
+    color: #ffd727;
+    text-shadow: #000000 5px 5px !important;
+}
+
+.link-wrapper {
+    background: #00000044;
+    border: 3px solid #000000;
+    padding: 15px 25px;
+    border-radius: 7px;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+.link-wrapper:hover {
+    cursor: pointer;
+}
+
+.volt {
+    margin-left: -10%;
+}
+
+.tpk {
+    margin-left: 15%;
+}
+
+a {
+
+    text-decoration: none;
+    color: #ffd727;
+    font-family: 'Bazinga';
+}
 
 @media screen and (min-width: 768px) {
     .text-wrapper {
         margin-top: 0;
+    }
+
+    .bottom-content-wrapper {
+        top: 60vh;
+    }
+
+    .text-wrapper {
+        right: 12%;
     }
 }
