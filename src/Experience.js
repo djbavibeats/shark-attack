@@ -26,7 +26,7 @@ export default function Experience() {
             enablePan={false}
         />
         <Environment preset="dawn" color="#c90225" background={true} blur={1} />
-        <directionalLight position={ [ 0, 2, 3 ] } intensity={ 0.5 } />
+        {/* <directionalLight position={ [ 0, 2, 3 ] } intensity={ 0.5 } /> */}
         <ambientLight intensity={ 0.5 } color="#c90225" />
         <Sky color="#c90225" distance={10} sunPosition={[0, 4, 0]} inclination={0} azimuth={0.25} />
         <Suspense fallback={null}>
@@ -55,7 +55,7 @@ export default function Experience() {
         <mesh rotation-x={ Math.PI * -.5 } position-y={-2} scale={[ 10, 10 ]}>
             <planeGeometry  />
         </mesh>
-        <directionalLight useHelper position={[ 0, 5, 0 ]} color="darkblue"  intensity={ 2.5 }/>
+        {/* <directionalLight useHelper position={[ 0, 5, 0 ]} color="darkblue"  intensity={ 2.5 }/> */}
         {/* <Reflector resolution={ 512 } args={[50, 50]} position-z="-2.76" /> */}
     </>)
 }
